@@ -22,6 +22,18 @@
 	<script src="./js/gmaps.js"></script>
 
     <title>La Panthère - Agence de Web Design</title>
+
+	<!-- Analytics -->
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-445G54ZVZ2"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-445G54ZVZ2');
+	</script>
+
 </head>
 <body>
 
@@ -44,7 +56,7 @@
 	<section id="wrapper__contact">
 		<div class="wrapper__contact__content">
 			<img src="./img/logo.png" alt="La Panthère Logo Petit">
-			<a href="contact.html">CONTACT</a>
+			<a href="contact.html" title="Page de contact">CONTACT</a>
 		</div>
 	</section>
 
@@ -88,8 +100,8 @@
 			<h1>Nous travaillons avec beaucoup de client, <br> Voici nos réalisations</h1>
 			<div class="wrapper__realisation__content__row">
 			<div class="wrapper__realisation__content__row__items">
-				<a href="">
-					<img src="./img/1.webp" alt="">
+				<a href="#">
+					<img src="./img/1.webp" alt="Journal Local">
 					<div class="voiler">
 						<div class="button">+</div>
 					</div>
@@ -99,8 +111,8 @@
 				<span class="subtitle">Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.</span>
 			</div>
 			<div class="wrapper__realisation__content__row__items">
-				<a href="">
-					<img src="./img/2.webp" alt="">
+				<a href="#">
+					<img src="./img/2.webp" alt="Site Web pour Photographes">
 					<div class="voiler">
 						<div class="button">+</div>
 					</div>
@@ -110,8 +122,8 @@
 				<span class="subtitle">Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.</span>
 			</div>
 			<div class="wrapper__realisation__content__row__items">
-				<a href="">
-					<img src="./img/3.webp" alt="">
+				<a href="#">
+					<img src="./img/3.webp" alt="Site internet d'un voyageur">
 					<div class="voiler">
 						<div class="button">+</div>
 					</div>
@@ -121,8 +133,8 @@
 				<span class="subtitle">Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.</span>
 			</div>
 			<div class="wrapper__realisation__content__row__items">
-				<a href="">
-					<img src="./img/4.webp" alt="">
+				<a href="#">
+					<img src="./img/4.webp" alt="Agence de mariage">
 					<div class="voiler">
 						<div class="button">+</div>
 					</div>
@@ -138,7 +150,7 @@
 	<section id="wrapper__contact">
 		<div class="wrapper__contact__content">
 			<h1>Prêt pour redonner vie à votre projet ? <br> Contactez notre équipe !</h1>
-			<a href="">CONTACT</a>
+			<a href="contact.html" title="Page de contact">CONTACT</a>
 		</div>
 	</section>
 </main>
@@ -147,19 +159,19 @@
 	<div class="footer__row">
 		<div class="footer__row__items">
 			<ul>
-				<li><a href="#">Qui sommes nous ?</a></li>
-				<li><a href="#">Conditions générales</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">Nos partenaires</a></li>
+				<li><a href="#" title="Qui sommes nous ?">Qui sommes nous ?</a></li>
+				<li><a href="#" title="Conditions générales">Conditions générales</a></li>
+				<li><a href="#" title="Contact">Contact</a></li>
+				<li><a href="#" title="Nos partenaires">Nos partenaires</a></li>
 			</ul>
 		</div>
 		<div class="footer__row__items">
 			<p>© Copyright 2022 - La Panthère - Agence web basée à Lyon</p>
 		</div>
 		<div class="footer__row__items">
-			<i class="fa-brands fa-instagram"></i>
-			<i class="fa-brands fa-twitter"></i>
-			<i class="fa-brands fa-facebook"></i>
+			<a href="#"><i class="fa-brands fa-instagram"></i></a>
+			<a href="#"><i class="fa-brands fa-twitter"></i></a>
+			<a href="#"><i class="fa-brands fa-facebook"></i></a>
 		</div>
 	</div>
 </footer>

@@ -409,7 +409,7 @@ footer {
     color: white;
 }
 
-.footer__row__items > i {
+.footer__row__items > a > i {
     color: rgba(255, 255, 255, 0.774);
     font-size: 25px;
     margin-right: 10px;
@@ -417,7 +417,7 @@ footer {
     cursor: pointer;
 }
 
-.footer__row__items > i:hover {
+.footer__row__items > a > i:hover {
     color: white;
 }
 
