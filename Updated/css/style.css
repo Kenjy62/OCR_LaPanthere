@@ -2,6 +2,34 @@ body {
     background-color: white;
 }
 
+a.backToTop {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: #F3976C;
+    z-index: 999;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.4); 
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.4);
+}
+
+.backToTop > i {
+    color: white;
+    font-size: 17px;
+}
+
+a.backToTop:hover {
+    background-color: #c27956;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
 header {
     margin: auto;
     padding-top: 30px;
@@ -48,7 +76,7 @@ ul > a > li:hover {
 }
 
 section#wrapper__contact {
-    background-image: url('../img/agence-la-panthere.jpg');
+    background-image: url('../img/agence-la-panthere.webp');
     background-attachment: fixed;
     background-size: cover;
     display: flex;
@@ -212,7 +240,7 @@ section#wrapper__informations > .wrapper__informations__content > .wrapper__info
 }
 
 section#wrapper__about {
-    background-image: url('../img/image-de-presentation.bmp');
+    background-image: url('../img/image-de-presentation.webp');
     background-attachment: fixed;
     display: flex;
     z-index: 0;
@@ -530,6 +558,24 @@ section#wrapper__informations > .wrapper__informations__content > .wrapper__info
 
     section#wrapper__realisation > .wrapper__realisation__content > .wrapper__realisation__content__row > .wrapper__realisation__content__row__items {
         width: calc(100% - 10px);
+    }
+    
+    section#wrapper__informations.fromContact > .wrapper__informations__content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section#wrapper__informations.fromContact > .wrapper__informations__content > .wrapper__informations__content__form {
+        width: 100%;
+    }
+
+    section#wrapper__informations.fromContact > .wrapper__informations__content > .wrapper__informations__content__infos {
+        width: 100%;
+    }
+
+    section#wrapper__informations.fromContact > .wrapper__informations__content > .wrapper__informations__content__infos > span {
+        display: block;
     }
 
     footer > .footer__row {
