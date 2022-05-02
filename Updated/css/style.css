@@ -1,5 +1,10 @@
-body {
+html, body {
     background-color: white;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 a.backToTop {
@@ -478,6 +483,7 @@ color: white;
 section#wrapper__informations > .wrapper__informations__content > .wrapper__informations__content__form > form > .formItems.submit > input:hover {
     background-color: #c27956;
     text-decoration: none;
+    cursor: pointer;
 }
 
 
