@@ -143,6 +143,28 @@ section > .wrapper__contact__content > a:hover {
 }
 
 
+section#wrapper__bottom__contact {
+    background-image: url('../img/agence-la-panthere.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    z-index: 0;
+    position: relative;
+
+}
+
+section#wrapper__bottom__contact::before {
+    content: "";
+    background-image: url('../img/texture-paper.png');
+    background-size: 280px 280px;
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+
 /* fromContact */
 
 section#wrapper__contact.fromContact {

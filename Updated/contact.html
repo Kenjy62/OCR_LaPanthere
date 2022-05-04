@@ -19,15 +19,15 @@
 <a class="backToTop" href="#header"><svg fill="white" height="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M374.6 246.6C368.4 252.9 360.2 256 352 256s-16.38-3.125-22.62-9.375L224 141.3V448c0 17.69-14.33 31.1-31.1 31.1S160 465.7 160 448V141.3L54.63 246.6c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160C387.1 213.9 387.1 234.1 374.6 246.6z"/></svg></a>
 
 
-<header>
-	<a href="index.html" alt="Retour à l'accueil"><div class="header__logo">
-		<img src="img/agence-la-panthere-monochrome.svg" width="240px" height="100%" alt="La Panthère Logo">
+<header id="header">
+	<a href="index.html"><div class="header__logo" title="Retour à l'accueil">
+		<img src="img/agence-la-panthere-monochrome.svg" width="240" alt="La Panthère Logo">
 	</div></a>
 	<nav>
 		<ul>
-			<a href="Nos Partenaires"><li>Accueil</li></a>
-			<a href="index.html#wrapper__realisation"><li>Nos réalisations</li></a>
-			<a href="Nos Partenaires"><li>Nous contacter</li></a>
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="#wrapper__realisation">Nos réalisations</a></li>
+			<li><a href="contact.html">Nous contacter</a></li>
 		</ul>
 	</nav>
 </header>
@@ -43,7 +43,7 @@
 	<section id="wrapper__informations" class="fromContact">
 		<div class="wrapper__informations__content">
 			<div class="wrapper__informations__content__form">
-				<form action="">
+				<form action="#" method="POST">
 					<div class="formItems name">
 						<label for="name">Nom : </label>
 						<input id="name" type="text">
@@ -58,7 +58,7 @@
 					</div>
 					<div class="formItems brief">
 						<label for="brief">Brief de votre projet : </label>
-						<textarea name="brief"></textarea>
+						<textarea id="brief" name="brief"></textarea>
 					</div>
 					
 					<div class="formItems submit">
@@ -91,9 +91,9 @@
 			<p>© Copyright 2022 - La Panthère - Agence web basée à Lyon</p>
 		</div>
 		<div class="footer__row__items">
-			<a href="#"><i class="fa-brands fa-instagram"></i></a>
-			<a href="#"><i class="fa-brands fa-twitter"></i></a>
-			<a href="#"><i class="fa-brands fa-facebook"></i></a>
+			<a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+			<a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+			<a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
 		</div>
 	</div>
 </footer>
