@@ -5,7 +5,14 @@ html, body {
 
 a {
     text-decoration: none;
+    color: black;
 }
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
 
 a.backToTop {
     position: fixed;
@@ -163,6 +170,7 @@ section#wrapper__bottom__contact::before {
     width: 100%;
     z-index: 1;
 }
+
 
 
 /* fromContact */
@@ -435,6 +443,19 @@ footer {
 .footer__row__items > p {
     color: white;
 }
+
+.footer__row__items > a {
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footer__row__items > a:hover {
+    color: white;
+}
+
 
 .footer__row__items > a > i {
     color: rgba(255, 255, 255, 0.774);
