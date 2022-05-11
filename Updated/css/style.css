@@ -65,25 +65,26 @@ nav {
     display: flex;
 }
 
-ul {
+nav > ul {
     margin: auto;
     list-style: none;
     padding: 0;
+    display: flex;
 }
 
-ul > a {
+nav > ul > li > a {
     margin-right: 5px;
     margin-left: 5px;
     text-decoration: none;
     color: black;
 }
 
-ul > a > li {
+nav > ul > li > a {
     display: inline-block;
     font-size: 16px;
 }
 
-ul > a > li:hover {
+nav > ul > li > a:hover {
     color: #c27956;
     border-bottom: 2px solid #c27956;
 }
@@ -417,6 +418,10 @@ footer {
     padding-bottom: 30px;
     background-color: #c27956;
     display: flex;
+}
+
+footer > .footer__row > .footer__row__items > ul {
+    list-style: none;
 }
 
 .footer__row {
