@@ -18,3 +18,5 @@ Optimize the existing site for SEO, accessibility and code reading.
 >
 > CSS
 
+<br>
+<font size="10"><p align="center"><a href="https://kenjy62.github.io/OCR_LaPhantere/Base">Base Démonstration</a><br><a href="https://kenjy62.github.io/OCR_LaPhantere/Updated">Updated Démonstration</a></p></font>
